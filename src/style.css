@@ -15,6 +15,10 @@
   display: flex;
 }
 
+.errorColor {
+  color: rgb(255, 72, 72);
+}
+
 .landingContainer {
   width: 100%;
   height: 100vh;
@@ -71,6 +75,53 @@
   height: 100vh;
   justify-content: center;
   align-items: center;
+}
+
+.logPageContainer {
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.logPageContainer .logContainer {
+  height: 50%;
+  width: 28%;
+  background-color: rgb(46, 46, 46);
+  border-radius: 1rem;
+  padding: 50px;
+  gap: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-shadow: -1px 22px 40px -4px rgba(29, 29, 29, 0.75);
+  -webkit-box-shadow: -1px 22px 40px -4px rgba(29, 29, 29, 0.75);
+  -moz-box-shadow: -1px 22px 40px -4px rgba(29, 29, 29, 0.75);
+}
+.logPageContainer .logContainer .formContainer {
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+}
+.logPageContainer .logContainer .formContainer .fieldsContainer {
+  flex-direction: column;
+  gap: 5px;
+}
+.logPageContainer .logContainer .formContainer .fieldsContainer .settingField {
+  height: 40px;
+  border: 1px solid rgb(148, 148, 148);
+  border-radius: 0.4rem;
+  background-color: rgb(46, 46, 46);
+  font-size: 1rem;
+  padding: 4px;
+}
+.logPageContainer .logContainer .formContainer .settingButton {
+  width: 50%;
+  height: 40px;
+  border: 1px solid rgb(207, 255, 206);
+  border-radius: 0.4rem;
+  background-color: rgb(207, 255, 206);
+  font-size: 1.2rem;
+  color: rgb(46, 46, 46);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -9,7 +9,7 @@ export const Main = () => {
     async function fetchProducts() {
         try {
             const proxy = 'https://api.allorigins.win/raw?url='
-            const url = 'https://aripto.herokuapp.com/product/get-product/all'
+            const url = 'https://ariptosv.onrender.com/product/get-product/all'
             const res = await fetch(proxy+url)
             return await res.json()
         } catch(err) {console.log(err)}
